@@ -1,0 +1,20 @@
+/* selektor:psudo-class { */
+  /* definisi properti di sini*/
+/* } */
+
+a {
+  font-size: 25px;
+}
+
+a:hover {
+    color: green;
+  }
+
+/* p span {
+    color: magenta;
+} */
+
+p::first-line {
+    color: magenta;
+}
+
